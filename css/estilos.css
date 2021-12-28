@@ -176,7 +176,7 @@ a {
   }
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 375px) {
   .header__logo {
     width: 200px;
   }
