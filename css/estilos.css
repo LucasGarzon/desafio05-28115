@@ -3,6 +3,7 @@
 body {
   font-family: "Lato", sans-serif;
   font-size: 1.2rem;
+  background-color: black;
 }
 
 a {
@@ -100,7 +101,6 @@ a {
 
 .prod__container {
   background-color: #d8d8d8;
-  /* overflow: hidden; */
 }
 
 .clnt__img--adj {
@@ -143,15 +143,9 @@ a {
 }
 
 
-
 /* MEDIA-QUERIES MEDIA-QUERIES MEDIA-QUERIES MEDIA-QUERIES  */
 
-
-
 @media only screen and (max-width: 913px) {
-  .footer__li a {
-    font-size: 0.8rem;
-  }
 
   .footer__list {
     font-size: 1.1rem;
