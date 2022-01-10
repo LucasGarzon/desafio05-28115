@@ -118,15 +118,10 @@ a {
   background-color: #f6f5f6;
 }
 
-
-
 .footer__container {
   background-color: black;
 }
 
-/* .footer__img {
-  filter: invert(1);
-} */
 
 .bi {
   color: white;
@@ -147,15 +142,6 @@ a {
   background-position: center;
   background-size: cover;
 }
-
-/* .contenedor__contacto {
-  padding: 15px 0px;
-  background-image: url(https://i.ytimg.com/vi/R9mXtzn8meE/maxresdefault.jpg);
-  background-position: center;
-  background-size: cover;
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-} */
 
 .container__form {
   background-color: #ecebec;
