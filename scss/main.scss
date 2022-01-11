@@ -1,4 +1,3 @@
-@import "./partials/variables";
 /*RESET RESET*/
 @import "./partials/reset";
 /*/RESET /RESET*/
@@ -8,9 +7,18 @@
 /*HERO HERO HERO*/
 @import "./partials/hero";
 /*/HERO /HERO /HERO*/
-/*QUIENES SOMOS*/
+/*QUIENES-SOMOS*/
 @import "./partials/qs";
-/*/QUIENES SOMOS*/
+/*/QUIENES-SOMOS*/
 /*PRODUCTOS PRODUCTOS*/
 @import "./partials/producto";
 /*/PRODUCTOS /PRODUCTOS*/
+/*CLIENTES CLIENTES*/
+@import "./partials/clientes";
+/*/CLIENTES /CLIENTES*/
+/*FORM FORM FORM*/
+@import "./partials/contacto";
+/*FORM /FORM /FORM*/
+/*FOOTER FOOTER*/
+@import "./partials/footer";
+/*/FOOTER /FOOTER*/

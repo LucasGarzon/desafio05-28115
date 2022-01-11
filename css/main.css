@@ -59,7 +59,7 @@ a {
       box-shadow: 1px 1px 5px black; }
 
 /*/HERO /HERO /HERO*/
-/*QUIENES SOMOS*/
+/*QUIENES-SOMOS*/
 .qs {
   background: url(https://i.ytimg.com/vi/R9mXtzn8meE/maxresdefault.jpg);
   background-position: center;
@@ -69,7 +69,7 @@ a {
   .qs__txt {
     background-color: white; }
 
-/*/QUIENES SOMOS*/
+/*/QUIENES-SOMOS*/
 /*PRODUCTOS PRODUCTOS*/
 .prod {
   background-color: #EDEEEB; }
@@ -97,3 +97,43 @@ a {
 
 /*/SECCIÓN-PRODUCTOS*/
 /*/PRODUCTOS /PRODUCTOS*/
+/*CLIENTES CLIENTES*/
+.clnt {
+  background-color: #EDEEEB; }
+  .clnt__img--adj {
+    height: 271px;
+    width: 271px;
+    transition: all 0.2s ease;
+    margin-bottom: 50px; }
+    .clnt__img--adj:hover {
+      transform: scale(1.2, 1.2); }
+
+/*/CLIENTES /CLIENTES*/
+/*FORM FORM FORM*/
+.container__contacto {
+  background-image: url(https://i.ytimg.com/vi/R9mXtzn8meE/maxresdefault.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.formulario {
+  background-color: #EDEEEB; }
+  .formulario__txtArea {
+    height: 20vh; }
+  .formulario__btn {
+    width: 50%; }
+
+/*FORM /FORM /FORM*/
+/*FOOTER FOOTER*/
+.footer {
+  background-color: black; }
+  .footer__list {
+    color: white; }
+  .footer a {
+    color: white;
+    font-size: 1rem; }
+
+.bi {
+  color: white;
+  font-size: 1.7rem; }
+
+/*/FOOTER /FOOTER*/

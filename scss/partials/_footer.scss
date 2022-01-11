@@ -1,0 +1,17 @@
+.footer {
+  background-color: black;
+  &__list {
+    color: white;
+  }
+  & a {
+    color: white;
+    font-size: 1rem;
+  }
+}
+
+.bi {
+  color: white;
+  font-size: 1.7rem;
+}
+
+
