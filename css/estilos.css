@@ -88,6 +88,8 @@ a {
   background-color: white;
 }
 
+/*/QUIENES SOMOS /QIUENES SOMOS*/
+
 .prod__img {
   border-radius: 20px;
   transition: all 0.2s ease;
@@ -101,6 +103,8 @@ a {
 .prod__container {
   background-color: #d8d8d8;
 }
+
+/*/PRODUCTOS /PRODUCTOS*/
 
 .clnt__img--adj {
   height: 271px;
@@ -153,6 +157,8 @@ a {
 .form__btn {
   width: 50%;
 }
+
+/*Productos section*/
 
 .productos__sct {
   background-color: #f6f5f6;
