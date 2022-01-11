@@ -8,7 +8,6 @@ body {
 a {
   text-decoration: none; }
 
-/*/RESET /RESET*/
 /*HEADER HEADER*/
 .header__logo {
   width: 400px;
@@ -20,7 +19,6 @@ a {
 .header__boton {
   background-color: #3B4041; }
 
-/*/HEADER /HEADER*/
 /*HERO HERO HERO*/
 .hero {
   overflow: hidden;
@@ -58,7 +56,6 @@ a {
       transform: scale(1.4, 1.4);
       box-shadow: 1px 1px 5px black; }
 
-/*/HERO /HERO /HERO*/
 /*QUIENES-SOMOS*/
 .qs {
   background: url(https://i.ytimg.com/vi/R9mXtzn8meE/maxresdefault.jpg);
@@ -69,7 +66,6 @@ a {
   .qs__txt {
     background-color: white; }
 
-/*/QUIENES-SOMOS*/
 /*PRODUCTOS PRODUCTOS*/
 .prod {
   background-color: #EDEEEB; }
@@ -96,7 +92,6 @@ a {
   visibility: hidden; }
 
 /*/SECCIÓN-PRODUCTOS*/
-/*/PRODUCTOS /PRODUCTOS*/
 /*CLIENTES CLIENTES*/
 .clnt {
   background-color: #EDEEEB; }
@@ -108,7 +103,6 @@ a {
     .clnt__img--adj:hover {
       transform: scale(1.2, 1.2); }
 
-/*/CLIENTES /CLIENTES*/
 /*FORM FORM FORM*/
 .container__contacto {
   background-image: url(https://i.ytimg.com/vi/R9mXtzn8meE/maxresdefault.jpg);
@@ -122,7 +116,6 @@ a {
   .formulario__btn {
     width: 50%; }
 
-/*FORM /FORM /FORM*/
 /*FOOTER FOOTER*/
 .footer {
   background-color: black; }
@@ -136,4 +129,29 @@ a {
   color: white;
   font-size: 1.7rem; }
 
-/*/FOOTER /FOOTER*/
+/*RESPONSIVE*/
+@media only screen and (max-width: 913px) {
+  .footer__list {
+    font-size: 1.1rem; }
+  .footer__li a {
+    display: none; } }
+
+@media only screen and (max-width: 767px) {
+  .footer__li a {
+    display: none; } }
+
+@media only screen and (max-width: 540px) {
+  .header__logo {
+    width: 250px; } }
+
+@media only screen and (max-width: 378px) {
+  .header__logo {
+    width: 200px; } }
+
+@media only screen and (max-width: 325px) {
+  .header__logo {
+    width: 150px; } }
+
+@media only screen and (max-width: 278px) {
+  .header__logo {
+    width: 100px; } }
