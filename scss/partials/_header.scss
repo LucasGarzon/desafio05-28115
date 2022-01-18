@@ -1,0 +1,17 @@
+@import "./variables";
+
+.header {
+
+    &__logo {
+        width: 400px;
+        filter: invert(1);
+    }
+      
+    &__nav {
+        background-color: $gris-claro;
+    }
+      
+    &__boton {
+        background-color: $negro-pcia;
+    }
+}

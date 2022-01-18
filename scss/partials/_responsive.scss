@@ -1,0 +1,39 @@
+@media only screen and (max-width: 913px) {
+  .footer__list {
+    font-size: 1.1rem;
+  }
+
+  .footer__li a {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .footer__li a {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .header__logo {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 378px) {
+  .header__logo {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 325px) {
+  .header__logo {
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 278px) {
+    .header__logo {
+      width: 100px;
+    }
+  }

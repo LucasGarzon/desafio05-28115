@@ -1,0 +1,38 @@
+@import "./variables";
+
+.prod {
+  background-color: $gris-claro;
+
+  &__img {
+    border-radius: 20px;
+    transition: all 0.2s ease;
+
+    &:hover {
+      transform: scale(1.2, 1.2);
+    }
+  }
+}
+
+/*SECCIÓN-PRODUCTOS*/
+.producto {
+    background-color: $blanco-pcia;
+
+    &__box {
+        background-color: $gris-claro;
+    }
+      
+    &__img {
+        height: 25vh;
+        width: auto;
+        box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+.anchor{
+    display: block;
+    height: 200px; 
+    margin-top: -200px; 
+    visibility: hidden;
+}
+
+

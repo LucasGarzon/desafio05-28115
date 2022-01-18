@@ -1,0 +1,18 @@
+@import "./variables";
+
+.clnt {
+    background-color: $gris-claro;
+    
+    &__img--adj {
+        height: 271px;
+        width: 271px;
+        transition: all 0.2s ease;
+        margin-bottom: 50px;
+
+        &:hover {
+            transform: scale(1.2,1.2);
+        }
+        
+    }
+    
+}
