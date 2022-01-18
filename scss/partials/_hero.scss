@@ -5,8 +5,7 @@
     padding: 0px;
 
     &__div {
-      overflow: hidden;
-      padding: 0px;
+      @extend .hero,
     }
 
     &__div--video {
