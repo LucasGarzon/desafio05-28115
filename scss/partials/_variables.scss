@@ -5,3 +5,8 @@ $gris-oscuro: #C7C6CA;
 $negro-pcia: #3B4041;
 
 
+@mixin background {
+    background: url(https://i.ytimg.com/vi/R9mXtzn8meE/maxresdefault.jpg);
+    background-position: center;
+    background-size: cover;    
+}

@@ -4,11 +4,7 @@
     overflow: hidden;
     padding: 0px;
 
-    &__div {
-      @extend .hero,
-    }
-
-    &__div--video {
+    &__video {
       position: absolute;
       width: 100%;
       height: 50%;

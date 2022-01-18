@@ -1,9 +1,7 @@
 @import "./variables";
 
 .container__contacto {
-  background-image: url(https://i.ytimg.com/vi/R9mXtzn8meE/maxresdefault.jpg);
-  background-position: center;
-  background-size: cover;
+  @include background;
 }
 
 .formulario {

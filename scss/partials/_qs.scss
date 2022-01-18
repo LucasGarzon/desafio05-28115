@@ -1,9 +1,7 @@
 @import "./variables";
 
 .qs {
-    background: url(https://i.ytimg.com/vi/R9mXtzn8meE/maxresdefault.jpg);
-    background-position: center;
-    background-size: cover;
+    @include background;
     background-attachment: fixed;
     padding: 60px 30px;
     

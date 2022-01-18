@@ -20,10 +20,10 @@ a {
   background-color: #3B4041; }
 
 /*HERO HERO HERO*/
-.hero, .hero__div {
+.hero {
   overflow: hidden;
   padding: 0px; }
-  .hero__div--video {
+  .hero__video {
     position: absolute;
     width: 100%;
     height: 50%;
@@ -101,7 +101,7 @@ a {
 
 /*FORM FORM FORM*/
 .container__contacto {
-  background-image: url(https://i.ytimg.com/vi/R9mXtzn8meE/maxresdefault.jpg);
+  background: url(https://i.ytimg.com/vi/R9mXtzn8meE/maxresdefault.jpg);
   background-position: center;
   background-size: cover; }
 
