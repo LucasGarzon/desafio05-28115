@@ -4,13 +4,13 @@
     color: white;
   }
   & a {
-    color: white;
+    @extend .footer__list;
     font-size: 1rem;
   }
 }
 
 .bi {
-  color: white;
+  @extend .footer__list;
   font-size: 1.7rem;
 }
 

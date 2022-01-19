@@ -1,7 +1,7 @@
 @import "./variables";
 
 .clnt {
-    background-color: $gris-claro;
+    background-color: map-get($grises, medio);
     
     &__img--adj {
         height: 271px;

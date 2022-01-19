@@ -1,7 +1,7 @@
 @import "./variables";
 
 .prod {
-  background-color: $gris-claro;
+  background-color: map-get($grises, oscuro);
 
   &__img {
     border-radius: 20px;
@@ -18,7 +18,7 @@
     background-color: $blanco-pcia;
 
     &__box {
-        background-color: $gris-claro;
+        background-color: map-get($grises, claro);
     }
       
     &__img {

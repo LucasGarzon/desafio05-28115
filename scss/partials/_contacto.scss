@@ -6,7 +6,7 @@
 
 .formulario {
 
-  background-color: $gris-claro;
+  background-color: map-get($grises, medio);
 
   &__txtArea {
     height: 20vh;

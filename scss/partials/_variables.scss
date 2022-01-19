@@ -1,8 +1,11 @@
 $blanco-pcia:#F6F6F5;
-$gris-claro: #EDEEEB;
-$gris-medio: #E3E4E3;
-$gris-oscuro: #C7C6CA;
 $negro-pcia: #3B4041;
+
+$grises: (
+    claro: #EDEEEB,
+    medio: #E3E4E3,
+    oscuro: #C7C6CA,
+);
 
 
 @mixin background {

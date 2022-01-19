@@ -47,7 +47,6 @@ a {
     background-color: #3B4041;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
     transition: all 0.3s ease 0s; }
     .hero__boton:hover {
       transform: scale(1.4, 1.4);
@@ -65,7 +64,7 @@ a {
 
 /*PRODUCTOS PRODUCTOS*/
 .prod {
-  background-color: #EDEEEB; }
+  background-color: #C7C6CA; }
   .prod__img {
     border-radius: 20px;
     transition: all 0.2s ease; }
@@ -90,7 +89,7 @@ a {
 
 /*CLIENTES CLIENTES*/
 .clnt {
-  background-color: #EDEEEB; }
+  background-color: #E3E4E3; }
   .clnt__img--adj {
     height: 271px;
     width: 271px;
@@ -106,7 +105,7 @@ a {
   background-size: cover; }
 
 .formulario {
-  background-color: #EDEEEB; }
+  background-color: #E3E4E3; }
   .formulario__txtArea {
     height: 20vh; }
   .formulario__btn {
@@ -115,19 +114,17 @@ a {
 /*FOOTER FOOTER*/
 .footer {
   background-color: black; }
-  .footer__list {
+  .footer__list, .footer a, .bi {
     color: white; }
   .footer a {
-    color: white;
     font-size: 1rem; }
 
 .bi {
-  color: white;
   font-size: 1.7rem; }
 
 /*RESPONSIVE*/
 @media only screen and (max-width: 913px) {
-  .footer__list {
+  .footer__list, .footer a, .bi {
     font-size: 1.1rem; }
   .footer__li a {
     display: none; } }

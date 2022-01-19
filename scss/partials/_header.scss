@@ -8,7 +8,7 @@
     }
       
     &__nav {
-        background-color: $gris-claro;
+        background-color: map-get($grises, claro);
     }
       
     &__boton {
