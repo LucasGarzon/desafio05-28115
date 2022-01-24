@@ -15,6 +15,10 @@
     background-color: map-get($grises, claro);
   }
 
+  &__h2--sect {
+    background-color: $blanco_pcia;
+  } 
+
   &__img--sect {
     @include clntImg;
   }

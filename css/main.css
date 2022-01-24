@@ -115,6 +115,8 @@ html {
       transform: scale(1.2, 1.2); }
   .clnt__h2 {
     background-color: #EDEEEB; }
+  .clnt__h2--sect {
+    background-color: #F6F6F5; }
   .clnt__img--sect {
     height: 271px;
     width: 271px;
