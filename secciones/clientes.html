@@ -15,7 +15,7 @@
     <!-- GOOGLE_FONTS GOOGLE_FONTS GOOGLE_FONTS GOOGLE_FONTS GOOGLE_FONTS GOOGLE_FONTS  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
     <!-- /GOOGLE_FONTS /GOOGLE_FONTS /GOOGLE_FONTS /GOOGLE_FONTS /GOOGLE_FONTS -->
     <link rel="stylesheet" href="../css/main.css">
 </head>
@@ -36,8 +36,19 @@
                 <li class="nav-item">
                   <a class="nav-link" href="../secciones/quienesSomos.html">Quiénes somos</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../secciones/productos.html">Productos</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Productos
+                  </a>
+                  <ul class="dropdown-menu text-center text-lg-start header__nav" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="./productos.html">Todos</a></li>
+                    <li><a class="dropdown-item" href="./productos.html#producto01">Bolsa L</a></li>
+                    <li><a class="dropdown-item" href="./productos.html#producto02">Bolsa M</a></li>
+                    <li><a class="dropdown-item" href="./productos.html#producto03">Bolsa Cuadrada</a></li>
+                    <li><a class="dropdown-item" href="./productos.html#producto04">Bolsa Botella</a></li>
+                    <li><a class="dropdown-item" href="./productos.html#producto05">Bolsa S</a></li>
+                    <li><a class="dropdown-item" href="./productos.html#producto06">Bolsa XS</a></li>
+                  </ul>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Clientes</a>
@@ -53,7 +64,7 @@
     <!-- /HEADER /HEADER /HEADER /HEADER --> 
     <main>
         <!-- CLIENTES CLIENTES CLIENTES CLIENTES CLIENTES CLIENTES -->
-        <div class="container-fluid clnt">
+        <!-- <div class="container-fluid clnt">
           <h1 class="text-center p-4 pt-5 fs-3 text-uppercase fw-bold">Clientes que confían en nosotros</h1>
           <div class="row p-3">
             <div class="col-12 col-md-6 col-xl-3 mt-5">
@@ -75,7 +86,9 @@
                 <img src="../assets/Logo_Negro_Holandes.png" alt="Logo de la marca El Negro Holandés" class="img-fluid rounded mx-auto d-block clnt__img--adj">
               </a>
               <h2 class="text-center">Negro Holandés</h2>
-              <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati cupiditate temporibus provident labore delectus, velit excepturi, odio natus ratione veniam repellendus eaque necessitatibus numquam! Consectetur, exercitationem? Illum ab necessitatibus ratione?</p>
+              <p class="text-center">reciclamos los bolsones de harinas para transformarlos en unas bolsas de compras hermosas y resistentes.
+
+                🔥 Hace un tiempo le pedimos a varios artistas amigos/as si podían intervenir algunas para llevar a Bocas Abiertas, con la idea de que sean no solo una bella bolsa de compras reciclada, sino además una obra de arte andante, accesible a todo público.</p>
             </div>
             <div class="col-12 col-md-6 col-xl-3 mt-5">
               <a href="https://www.rusticochocolate.com/" target="blank">
@@ -85,8 +98,64 @@
               <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati cupiditate temporibus provident labore delectus, velit excepturi, odio natus ratione veniam repellendus eaque necessitatibus numquam! Consectetur, exercitationem? Illum ab necessitatibus ratione?</p>
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- /CLIENTES /CLIENTES /CLIENTES /CLIENTES /CLIENTES /CLIENTES -->        
+        <!-- <div class="container-fluid clnt">
+          <div class="row">
+              <h2 class="text-center">Negro Holandés</h2>
+              <p class="text-start">reciclamos los bolsones de harinas para transformarlos en unas bolsas de compras hermosas y resistentes.
+              🔥 Hace un tiempo le pedimos a varios artistas amigos/as si podían intervenir algunas para llevar a Bocas Abiertas, con la idea de que sean no solo una bella bolsa de compras reciclada, sino además una obra de arte andante, accesible a todo público.</p>
+              <img src="../assets/nh_gif.mp4" alt="Bolsas elavoradas para Negro Holandés">
+          </div>
+        </div> -->
+        <div class="container-fluid p-4 clnt">
+          <div class="row d-flex justify-content-center">
+            <span class="anchor" id="cliente01"></span>
+            <div class="row col-8 m-4 card">
+              <div class="d-flex align-items-center">
+                <img src="../assets/Logo_Lo_mio_es_tuyo.png" class="card-img-top img-fluid rounded m-0 p-4 d-block clnt__img--sect" alt="Logo de Lo Mío Es Tuyo">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Lo Mío Es Tuyo</h5>
+                  <p class="card-text">Desarrollo de bolsas para Lo Mío Es Tuyo, donde la marca tenía como objetivo dar su primer paso hacia la moda circular, ofreciendo a sus clientes una bolsa reutilizable.</p>
+                  <a href="https://lomioestuyo.com.ar/" target="blank" class="btn btn-dark header__boton">Visitá su sitio</a>
+                </div>
+              </div>
+            </div>
+            <span class="anchor" id="cliente02"></span>
+            <div class="row col-8 m-4 card">
+              <div class="d-flex align-items-center">
+                <img src="../assets/logo_Larosa.svg" class="card-img-top img-fluid rounded m-0 p-4 d-block clnt__img--sect" alt="Logo de La Rosa Botánicos">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">La Rosa Botánicos</h5>
+                  <p class="card-text">Creamos neceseres para la línea de productos de cuidado para la piel de la marca, así como bolsas reutilizables en diferentes dimensiones para adaptarse a todos los rangos de producto.</p>
+                  <a href="https://www.larosabotanicos.com/" target="blank" class="btn btn-dark header__boton">Visitá su sitio</a>
+                </div>
+              </div>
+            </div>
+            <span class="anchor" id="cliente03"></span>
+            <div class="row col-8 m-4 card">
+              <div class="d-flex align-items-center">
+                <img src="../assets/Logo_Negro_Holandes.png" class="card-img-top img-fluid rounded m-0 p-4 d-block clnt__img--sect" alt="Logo de Negro Holandés">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Negro Holandés</h5>
+                  <p class="card-text">Reciclamos los bolsones de harinas para transformarlos en unas bolsas de compras hermosas y resistentes. <br>Hace un tiempo le pedimos a varios artistas amigos/as si podían intervenir algunas para llevar a Bocas Abiertas, con la idea de que sean no solo una bella bolsa de compras reciclada, sino además una obra de arte andante, accesible a todo público.</p>
+                  <a href="https://www.instagram.com/panes.negroholandes/?hl=es" target="blank" class="btn btn-dark header__boton">Visitá su sitio</a>
+                </div>
+              </div>
+            </div>
+            <span class="anchor" id="cliente04"></span>
+            <div class="row col-8 m-4 card">
+              <div class="d-flex align-items-center">
+                <img src="../assets/logo_galponderopa.png" class="card-img-top img-fluid rounded m-0 p-4 d-block clnt__img--sect" alt="Logo de Galpón de Ropa">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Galpón de Ropa</h5>
+                  <p class="card-text">Desarrollo de Bolsa "M" para Galpón de Ropa, marca que busca generar conciencia entre sus consumidores, a través de la adquisición de estas bolsas reutilizables.</p>
+                  <a href="https://galponderopa.com/" target="blank" class="btn btn-dark header__boton">Visitá su sitio</a>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>    
     </main>
     <!-- FOOTER FOOTER FOOTER FOOTER FOOTER -->
     <footer>

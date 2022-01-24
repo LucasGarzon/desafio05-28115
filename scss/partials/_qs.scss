@@ -1,13 +1,29 @@
 @import "./variables";
 
 .qs {
-    @include background;
-    background-attachment: fixed;
-    padding: 60px 30px;
-    
-    &__txt {
-        background-color: white;
-      }
+  @include background;
+  background-attachment: fixed;
+  padding: 60px 30px;
+
+  &__intro {
+    background: map-get($grises, medio);
+    color: black;
+    opacity: 0.7;
+  }
+
+  &__txt {
+    background-color: map-get($grises, claro);
+    opacity: 0.8;
+  }
+
+  &__img {
+    height: 100%;
+    width: 100%;
+  }
+
 }
 
-  
+.dropdown-item:hover {
+  background-color: map-get($grises, oscuro);
+  color: $blanco-pcia;
+}

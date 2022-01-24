@@ -16,7 +16,7 @@
         <!-- GOOGLE_FONTS GOOGLE_FONTS GOOGLE_FONTS GOOGLE_FONTS GOOGLE_FONTS GOOGLE_FONTS  -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
         <!-- /GOOGLE_FONTS /GOOGLE_FONTS /GOOGLE_FONTS /GOOGLE_FONTS /GOOGLE_FONTS -->
         <link rel="stylesheet" href="../css/main.css">
     </head>
@@ -38,9 +38,20 @@
                 <li class="nav-item">
                   <a class="nav-link" href="../secciones/quienesSomos.html">Quiénes somos</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Productos</a>
-                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Productos
+                    </a>
+                    <ul class="dropdown-menu text-center text-lg-start header__nav" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#topH1">Todos</a></li>
+                      <li><a class="dropdown-item" href="#producto01">Bolsa L</a></li>
+                      <li><a class="dropdown-item" href="#producto02">Bolsa M</a></li>
+                      <li><a class="dropdown-item" href="#producto03">Bolsa Cuadrada</a></li>
+                      <li><a class="dropdown-item" href="#producto04">Bolsa Botella</a></li>
+                      <li><a class="dropdown-item" href="#producto05">Bolsa S</a></li>
+                      <li><a class="dropdown-item" href="#producto06">Bolsa XS</a></li>
+                    </ul>
+                  </li>
                 <li class="nav-item">
                   <a class="nav-link" href="../secciones/clientes.html">Clientes</a>
                 </li>
@@ -57,6 +68,7 @@
     <main>
         <div class="container-fluid producto p-4">
             <div class="row mb-4 d-flex justify-content-center">
+                <span class="anchor" id="topH1"></span>
                 <div class="producto__box col-10 d-flex flex-column flex-md-row justify-content-center">
                     <h1 class="text-center p-4 fs-3 text-uppercase fw-bold">Conocé nuestros productos</h1>
                 </div>
