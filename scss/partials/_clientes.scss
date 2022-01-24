@@ -1,18 +1,36 @@
 @import "./variables";
 
 .clnt {
-    background-color: map-get($grises, medio);
-    
-    &__img--adj {
-        height: 271px;
-        width: 271px;
-        transition: all 0.2s ease;
-        margin-bottom: 50px;
+  background-color: map-get($grises, medio);
 
-        &:hover {
-            transform: scale(1.2,1.2);
-        }
-        
+  &__img--adj {
+    @include clntImg;
+
+    &:hover {
+      transform: scale(1.2, 1.2);
     }
-    
+  }
+
+  &__h2 {
+    background-color: map-get($grises, claro);
+  }
+
+  &__img--sect {
+    @include clntImg;
+  }
+}
+
+.clnt--section {
+  background: url(https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/a0b9c383520583.5d3f3c92921fd.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.clnt__vid {
+  width: 100%;
+}
+
+.card {
+  overflow: hidden;
+  background-color: map-get($grises, claro);
 }

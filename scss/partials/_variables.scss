@@ -13,3 +13,10 @@ $grises: (
     background-position: center;
     background-size: cover;    
 }
+
+@mixin clntImg {
+    height: 271px;
+    width: 271px;
+    transition: all 0.2s ease;
+    margin-bottom: 50px;
+}
