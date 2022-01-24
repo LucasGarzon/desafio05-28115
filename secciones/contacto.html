@@ -15,7 +15,7 @@
     <!-- GOOGLE_FONTS GOOGLE_FONTS GOOGLE_FONTS GOOGLE_FONTS GOOGLE_FONTS GOOGLE_FONTS  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
     <!-- /GOOGLE_FONTS /GOOGLE_FONTS /GOOGLE_FONTS /GOOGLE_FONTS /GOOGLE_FONTS -->
     <link rel="stylesheet" href="../css/main.css">
 </head>
@@ -36,8 +36,19 @@
                 <li class="nav-item">
                   <a class="nav-link" href="../secciones/quienesSomos.html">Quiénes somos</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../secciones/productos.html">Productos</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Productos
+                  </a>
+                  <ul class="dropdown-menu text-center text-lg-start header__nav" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="./productos.html">Todos</a></li>
+                    <li><a class="dropdown-item" href="./productos.html#producto01">Bolsa L</a></li>
+                    <li><a class="dropdown-item" href="./productos.html#producto02">Bolsa M</a></li>
+                    <li><a class="dropdown-item" href="./productos.html#producto03">Bolsa Cuadrada</a></li>
+                    <li><a class="dropdown-item" href="./productos.html#producto04">Bolsa Botella</a></li>
+                    <li><a class="dropdown-item" href="./productos.html#producto05">Bolsa S</a></li>
+                    <li><a class="dropdown-item" href="./productos.html#producto06">Bolsa XS</a></li>
+                  </ul>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="../secciones/clientes.html">Clientes</a>
@@ -55,7 +66,7 @@
     <main>
         <div class="container-fluid p-4 container__contacto">
             <div class="container">
-                <div class="row d-flex justify-content-center">
+                <div class="row d-flex justify-content-start">
                     <form class="formulario p-4 col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6 overflow-hidden">
                       <h1 class="text-center p-4 fs-3 text-uppercase fw-bold">Contactanos para crear la bolsa de tu marca</h1>
                         <div class="mb-3">

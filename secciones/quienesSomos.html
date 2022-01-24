@@ -15,7 +15,7 @@
     <!-- GOOGLE_FONTS GOOGLE_FONTS GOOGLE_FONTS GOOGLE_FONTS GOOGLE_FONTS GOOGLE_FONTS  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
     <!-- /GOOGLE_FONTS /GOOGLE_FONTS /GOOGLE_FONTS /GOOGLE_FONTS /GOOGLE_FONTS -->
     <link rel="stylesheet" href="../css/main.css">
 </head>
@@ -36,8 +36,19 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#">Quiénes somos</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../secciones/productos.html">Productos</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Productos
+                  </a>
+                  <ul class="dropdown-menu text-center text-lg-start header__nav" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="./productos.html">Todos</a></li>
+                    <li><a class="dropdown-item" href="./productos.html#producto01">Bolsa L</a></li>
+                    <li><a class="dropdown-item" href="./productos.html#producto02">Bolsa M</a></li>
+                    <li><a class="dropdown-item" href="./productos.html#producto03">Bolsa Cuadrada</a></li>
+                    <li><a class="dropdown-item" href="./productos.html#producto04">Bolsa Botella</a></li>
+                    <li><a class="dropdown-item" href="./productos.html#producto05">Bolsa S</a></li>
+                    <li><a class="dropdown-item" href="./productos.html#producto06">Bolsa XS</a></li>
+                  </ul>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="../secciones/clientes.html">Clientes</a>
@@ -55,23 +66,48 @@
     <!-- SECCION-SOBRE-LA-MARCA SECCION-SOBRE-LA-MARCA  -->
       <div class="container-fluid qs">
         <div class="container">
-          <div class="row mb-4">
-            <div class="col-12 col-md-6 p-0 col-xl-5  d-flex flex-column justify-content-center qs__vid">
+          <div class="row p-5 qs__intro">
+            <h2 class="text-center">¿Cómo nos inspiramos?</h2>
+            <p>A partir de la propuesta dirigida a Atelier Fuerza y la fundamental confianza de Francisco Seubert,
+              quien dirige la panadería, <b>ideamos una bolsa realizada a partir de la recuperación de bolsones de
+              harina descartados</b> provenientes de su cadena de elaboración.
+              Luego de su stockeo en la panadería, se transportó el bulto completo en diferentes viajes en un auto
+              particular hacia el taller ubicado en la ciudad de Berazategui. <br>
+              <br> La selección y limpieza (cepillado en seco) de los bolsones se realizan a mano, una a una,
+              abriéndolas de un modo que permita su óptimo aprovechamiento. <b>Cada modelo de bolsa, en sus
+              diferentes dimensiones, genera el menor desperdicio por bolsón recuperado.</b><br>
+              <br>El corte y la confección también se realizan artesanalmente con cortadora eléctrica o tijera, según
+              sea el caso. El ensamble de las diferentes partes se materializa mediante costura, tecnología que
+              permite uniones en seco, sin pegamentos, duradera y que pone en valor el trabajo manual.
+              El proceso termina con el control de calidad, mediante una inspección visual, donde se terminan de
+              retirar hilos y se detectan posibles errores de confección.<br>
+              <br>La logística, acondicionamiento, corte y confección, son algunos de los costos contemplados, junto al
+              hilo y demás costos fijos y variables como la canasta básica argentina.<br>
+              <br> <b>El resultado es un contenedor único, diferenciado y lógico que pretende atender a necesidades
+              particulares ligadas a experiencias de uso y consumo más coherentes.</b> 
+              Todos los roles, desde proveedores del papel a consumidores, son colaboradores muy importantes
+              para que este producto diseñado en P R O V I N C I A sea el sostén de cada vez más personas.   
+            </p>
+          </div>
+          <span class="anchor" id="detDePcia"></span>
+          <div class="row pt-4 pb-4">
+            <div class="col-12 p-0 col-xl-6  d-flex flex-column justify-content-center qs__vid">
               <video src="../assets/videoMarca01.mp4" class="p-0 w-100 m-0 qs__vid" autoplay muted loops></video>
             </div>
-            <div class="col-12 col-md-6 col-xl-7 d-flex flex-column justify-content-center qs__txt">
+            <div class="col-12 col-xl-6 p-5 d-flex flex-column justify-content-center qs__txt">
               <h1 class="qs__h2 fs-2">Detrás de PROVINCIA</h1>
               <p class="laMarca__p">I put my soul in what I do" ("Pongo el alma en lo que hago"), dice Karin Dreijer Andersson cada vez que canta "When I grow up" ("Cuando crezca") y se repite en mi cabeza cada vez que realizo, una y otra vez, cada acción que conlleva hacer un simple bolsa.
-              Es un mantra que me acompaña a la hora de realizar un pedido.
-              <b>Cada una de las bolsas están destinadas a proteger y transportar eso que otra persona también le pone a su ofrenda, a su trabajo.</b></p>
+                Es un mantra que me acompaña a la hora de realizar un pedido.
+                <b>Cada una de las bolsas están destinadas a proteger y transportar eso que otra persona también le pone a su ofrenda, a su trabajo.</b></p>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-12 col-md-6 col-xl-7 d-flex flex-column justify-content-center qs__txt" >
-              <h2 class="qs__h2">Misión</h2>
-              <p>Aquello que me resulta tan natural sobre <b>mi idea de PROVINCIA tiene que ver con aquello que considero inspirador</b>, sobre todo, de ese mar de gente que entra y sale de CABA por día. Esa ola que inunda Constitucion cada hora pico para dar lo mejor de sí en condiciones que quizás no sean las más adecuadas; pero de todas formas lo entrega todo de si. <b>Quizás por esa idea de progreso que nos motiva a levantarnos cada día a construir algo de lo que queremos ver mañana: algo mejor</b>.</p>
+            <span class="anchor" id="mision"></span>
+            <div class="row pb-4">
+              <div class="col-12 col-xl-6 p-5 d-flex flex-column justify-content-center qs__txt" >
+                <h2 class=" qs__h2">Misión</h2>
+                <p class="">Aquello que me resulta tan natural sobre <b>mi idea de PROVINCIA tiene que ver con aquello que considero inspirador</b>, sobre todo, de ese mar de gente que entra y sale de CABA por día. Esa ola que inunda Constitucion cada hora pico para dar lo mejor de sí en condiciones que quizás no sean las más adecuadas; pero de todas formas lo entrega todo de si. <b>Quizás por esa idea de progreso que nos motiva a levantarnos cada día a construir algo de lo que queremos ver mañana: algo mejor</b>.</p>
             </div>
-            <div class="col-12 col-md-6 col-xl-5 p-0 d-flex flex-column justify-content-center qs__vid">
+            <div class="col-12 col-xl-6 p-0 d-flex flex-column justify-content-center qs__vid">
               <img src="../assets/fotoMision.jpg" class="p-0 w-100 m-0 qs__img" alt="Foto del proceso de trabajo"></img>
             </div>  
           </div>

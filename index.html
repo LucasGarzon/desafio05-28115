@@ -15,7 +15,7 @@
     <!-- GOOGLE_FONTS GOOGLE_FONTS GOOGLE_FONTS GOOGLE_FONTS GOOGLE_FONTS GOOGLE_FONTS  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
     <!-- /GOOGLE_FONTS /GOOGLE_FONTS /GOOGLE_FONTS /GOOGLE_FONTS /GOOGLE_FONTS -->
     <link rel="stylesheet" href="./css/main.css">
 </head>
@@ -33,8 +33,19 @@
                   <li class="nav-item">
                     <a class="nav-link" href="./secciones/quienesSomos.html">Quiénes somos</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./secciones/productos.html">Productos</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Productos
+                    </a>
+                    <ul class="dropdown-menu text-center text-lg-start header__nav" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="./secciones/productos.html">Todos</a></li>
+                      <li><a class="dropdown-item" href="./secciones/productos.html#producto01">Bolsa L</a></li>
+                      <li><a class="dropdown-item" href="./secciones/productos.html#producto02">Bolsa M</a></li>
+                      <li><a class="dropdown-item" href="./secciones/productos.html#producto03">Bolsa Cuadrada</a></li>
+                      <li><a class="dropdown-item" href="./secciones/productos.html#producto04">Bolsa Botella</a></li>
+                      <li><a class="dropdown-item" href="./secciones/productos.html#producto05">Bolsa S</a></li>
+                      <li><a class="dropdown-item" href="./secciones/productos.html#producto06">Bolsa XS</a></li>
+                    </ul>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="./secciones/clientes.html">Clientes</a>
@@ -53,7 +64,7 @@
       <div class="container-fluid hero">
         <video class="hero__video" src="./assets/Hilo_Loop_1.mp4" autoplay loop muted></video>
         <div class="d-flex flex-column bd-highlight justify-content-center hero__text">
-          <h1 class="text-center">Diseño, desarrollo y producción de bolsas</h1>
+          <h1 class="text-center fw-bold">Diseño, desarrollo y producción de bolsas</h1>
           <a class="nav-link text-center" href="./secciones/contacto.html"><button type="button" class="btn btn-dark hero__boton">CREEMOS LA DE TU MARCA</button></a>
         </div>
       </div>
@@ -61,23 +72,23 @@
       <!-- SECCION-SOBRE-LA-MARCA SECCION-SOBRE-LA-MARCA  -->
       <div class="container-fluid qs">
         <div class="container">
-          <div class="row mb-4">
-            <div class="col-12 col-md-6 p-0 col-xl-5  d-flex flex-column justify-content-center qs__vid">
+          <div class="row pt-4 pb-4">
+            <div class="col-12 p-0 col-xl-6  d-flex flex-column justify-content-center qs__vid">
               <video src="./assets/videoMarca01.mp4" class="p-0 w-100 m-0 qs__vid" autoplay muted loops></video>
             </div>
-            <div class="col-12 col-md-6 col-xl-7 d-flex flex-column justify-content-center qs__txt">
-              <h2 class="qs__h2">Detrás de PROVINCIA</h2>
-              <p class="qs__p">I put my soul in what I do" ("Pongo el alma en lo que hago"), dice Karin Dreijer Andersson cada vez que canta "When I grow up" ("Cuando crezca") y se repite en mi cabeza cada vez que realizo, una y otra vez, cada acción que conlleva hacer un simple bolsa.
+            <div class="col-12 col-xl-6 p-5 d-flex flex-column justify-content-center qs__txt">
+              <a href="./secciones/quienesSomos.html#detDePcia" class="link-dark"><h2 class="qs__h2">Detrás de PROVINCIA</h2></a>
+              <p class="laMarca__p">I put my soul in what I do" ("Pongo el alma en lo que hago"), dice Karin Dreijer Andersson cada vez que canta "When I grow up" ("Cuando crezca") y se repite en mi cabeza cada vez que realizo, una y otra vez, cada acción que conlleva hacer un simple bolsa.
               Es un mantra que me acompaña a la hora de realizar un pedido.
               <b>Cada una de las bolsas están destinadas a proteger y transportar eso que otra persona también le pone a su ofrenda, a su trabajo.</b></p>
             </div>
           </div>
-          <div class="row">
-            <div class="col-12 col-md-6 col-xl-7 d-flex flex-column justify-content-center qs__txt" >
-              <h2 class="qs__h2">Misión</h2>
-              <p>Aquello que me resulta tan natural sobre <b>mi idea de PROVINCIA tiene que ver con aquello que considero inspirador</b>, sobre todo, de ese mar de gente que entra y sale de CABA por día. Esa ola que inunda Constitucion cada hora pico para dar lo mejor de sí en condiciones que quizás no sean las más adecuadas; pero de todas formas lo entrega todo de si. <b>Quizás por esa idea de progreso que nos motiva a levantarnos cada día a construir algo de lo que queremos ver mañana: algo mejor</b>.</p>
+            <div class="row pb-4">
+              <div class="col-12 col-xl-6 p-5 d-flex flex-column justify-content-center qs__txt">
+                <a href="./secciones/quienesSomos.html#mision" class="link-dark"><h2 class="qs__h2">Misión</h2></a>
+                <p>Aquello que me resulta tan natural sobre <b>mi idea de PROVINCIA tiene que ver con aquello que considero inspirador</b>, sobre todo, de ese mar de gente que entra y sale de CABA por día. Esa ola que inunda Constitucion cada hora pico para dar lo mejor de sí en condiciones que quizás no sean las más adecuadas; pero de todas formas lo entrega todo de si. <b>Quizás por esa idea de progreso que nos motiva a levantarnos cada día a construir algo de lo que queremos ver mañana: algo mejor</b>.</p>
             </div>
-            <div class="col-12 col-md-6 col-xl-5 p-0 d-flex flex-column justify-content-center qs__vid">
+            <div class="col-12 col-xl-6 p-0 d-flex flex-column justify-content-center qs__vid">
               <img src="./assets/fotoMision.jpg" class="p-0 w-100 m-0 qs__img" alt="Foto del proceso de trabajo"></img>
             </div>  
           </div>
@@ -113,33 +124,26 @@
       <!-- CLIENTES CLIENTES CLIENTES CLIENTES CLIENTES CLIENTES -->
       <div class="container-fluid clnt">
         <div class="row p-3">
+          <h2 class="text-center display-5">CONFIAN EN NOSOTROS</h2>
           <div class="col-12 col-md-6 col-xl-3 mt-5">
             <a href="https://lomioestuyo.com.ar/" target="blank">
               <img src="./assets/Logo_Lo_mio_es_tuyo.png" alt="Logo de la marca Lo mio es tuyo" class="img-fluid rounded mx-auto d-block clnt__img--adj">
             </a>
-            <h2 class="text-center">Lo Mío Es Tuyo</h2>
-            <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati cupiditate temporibus provident labore delectus, velit excepturi, odio natus ratione veniam repellendus eaque necessitatibus numquam! Consectetur, exercitationem? Illum ab necessitatibus ratione?</p>
           </div>
           <div class="col-12 col-md-6 col-xl-3 mt-5">
             <a href="https://www.larosabotanicos.com/" target="blank">
               <img src="./assets/logo_Larosa.svg" alt="Logo de la marca La Rosa Botánicos" class="img-fluid rounded mx-auto d-block clnt__img--adj">
             </a>
-            <h2 class="text-center">La Rosa Botánicos</h2>
-            <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati cupiditate temporibus provident labore delectus, velit excepturi, odio natus ratione veniam repellendus eaque necessitatibus numquam! Consectetur, exercitationem? Illum ab necessitatibus ratione?</p>
           </div>
           <div class="col-12 col-md-6 col-xl-3 mt-5">
             <a href="https://www.instagram.com/panes.negroholandes/?hl=es" target="blank">
               <img src="./assets/Logo_Negro_Holandes.png" alt="Logo de la marca El Negro Holandés" class="img-fluid rounded mx-auto d-block clnt__img--adj">
             </a>
-            <h2 class="text-center">Negro Holandés</h2>
-            <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati cupiditate temporibus provident labore delectus, velit excepturi, odio natus ratione veniam repellendus eaque necessitatibus numquam! Consectetur, exercitationem? Illum ab necessitatibus ratione?</p>
           </div>
           <div class="col-12 col-md-6 col-xl-3 mt-5">
             <a href="https://www.rusticochocolate.com/" target="blank">
               <img src="./assets/Logo_Rustico_chocolate.png" alt="Logo de la marca Rústico Chocolate" class="img-fluid rounded mx-auto d-block clnt__img--adj">
             </a>
-            <h2 class="text-center">Rústico</h2>
-            <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati cupiditate temporibus provident labore delectus, velit excepturi, odio natus ratione veniam repellendus eaque necessitatibus numquam! Consectetur, exercitationem? Illum ab necessitatibus ratione?</p>
           </div>
         </div>
       </div>
