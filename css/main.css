@@ -80,12 +80,26 @@ html {
 
 /*PRODUCTOS PRODUCTOS*/
 .prod {
+<<<<<<< HEAD
   background-color: #C7C6CA; }
   .prod__img {
     border-radius: 20px;
     transition: all 0.2s ease; }
     .prod__img:hover {
       transform: scale(1.2, 1.2); }
+=======
+  background-color: #c7c6ca;
+}
+.prod__img {
+  border-radius: 20px;
+  transition: all 0.2s ease;
+}
+.prod__img:hover {
+  transform: scale(1.2, 1.2);
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+}
+>>>>>>> ramaDev
 
 /*SECCIÓN-PRODUCTOS*/
 .producto {
