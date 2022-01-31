@@ -21,8 +21,18 @@
 
     &__box {
         background-color: map-get($grises, claro);
-    }
+        transition: all 0.2s ease;
+        &:hover {
+          transform: scale(1.05, 1.05);
+          -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.1); 
+          box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.1);
+        }
+    }  
       
+    &__box--h1 {
+      background-color: map-get($grises, claro);
+    }
+
     &__img {
         height: 25vh;
         width: auto;
@@ -36,5 +46,6 @@
     margin-top: -200px; 
     visibility: hidden;
 }
+
 
 

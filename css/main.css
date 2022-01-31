@@ -115,6 +115,15 @@ html {
 }
 .producto__box {
   background-color: #edeeeb;
+  transition: all 0.2s ease;
+}
+.producto__box:hover {
+  transform: scale(1.05, 1.05);
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+}
+.producto__box--h1 {
+  background-color: #edeeeb;
 }
 .producto__img {
   height: 25vh;
@@ -222,7 +231,7 @@ html {
   }
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 545px) {
   .header__logo {
     width: 250px;
   }
@@ -237,6 +246,11 @@ html {
 @media only screen and (max-width: 325px) {
   .header__logo {
     width: 150px;
+  }
+
+  .clnt__img--sect {
+    height: 200px;
+    width: 200px;
   }
 }
 
